@@ -2,8 +2,8 @@
 //  main.m
 //  Test
 //
-//  Created by CTS-MACMINI on 10/07/17.
-//  Copyright © 2017 MD. All rights reserved.
+//  Created by Satya Venkata Krishna Achanta on 11/07/17.
+//  Copyright © 2017 Satya Venkata Krishna Achanta. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
