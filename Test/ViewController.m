@@ -21,12 +21,15 @@ CLLocationCoordinate2D locCoord;
 NSString *cityState;
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // We can add any additional methods inside this block.
     
     [super viewDidLoad];
     _mapView.mapType = MKMapTypeStandard;
+    
+    
     
     UILongPressGestureRecognizer *longPressGesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongPressGesture:)];
     [self.mapView addGestureRecognizer:longPressGesture];
